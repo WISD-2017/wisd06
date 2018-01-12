@@ -23,15 +23,21 @@ Route::get('bb/b1', function (){
     return view('bb.b1');
 });
 
-<<<<<<< HEAD
+
 Route::get('/aa/a1', function (){
     return view('aa.a1');
 });
 
 Route::get('/aa/a2', function () {
     return view('aa.a2');
-=======
+});
+
 Route::get('/bb/b2', function (){
     return view('bb.b2');
->>>>>>> 5c4b3da4bd43754fabd7e38701440029db84a747
+
+});
+
+Route::get('/dd/d1', function (){
+    return view('dd.d1');
+
 });
